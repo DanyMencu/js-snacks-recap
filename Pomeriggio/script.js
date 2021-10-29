@@ -13,10 +13,10 @@ btn.addEventListener('click', function() {
         userNumber = prompt('Scrivere un numero di almeno 4 cifre')
     }
 
-    for (let i = 0; i < userNumber.length; 1++) {
+    for (let i = 0; i < userNumber.length; i++) {
         somma += parseInt(userNumber[i]);
     }
-    media = somma / numero.length;
+    media = somma / userNumber.length;
 
     console.log(somma , media);
 })
